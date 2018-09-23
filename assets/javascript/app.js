@@ -15,7 +15,7 @@ $("#userSubmit").click(function () {
     console.log(topics);
 });
 
-$("button").click(function () {
+$(document).on("click","button",function () {
 
     let chosenWord = $(this).attr(`id`);
 
