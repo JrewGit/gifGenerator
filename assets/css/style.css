@@ -1,3 +1,46 @@
-/* img {
-    float: left;
-} */
+body {
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  button, #userSubmit {
+    background-color: greenyellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  button:hover, #userSubmit:hover {
+    background-color: darkgreen;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  button:active, #userSubmit:active {
+    background-color: darkred;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .pandgifHolder {
+      float: left;
+      margin: 5px;
+  }
+  
+  .rtg {
+    color: greenyellow;
+    text-align: center;
+  }
+  
+  #gifLookup {
+    color: greenyellow;  
+  }
+  
+  /* img:hover {
+    border: 2px solid greenyellow
+  } */
